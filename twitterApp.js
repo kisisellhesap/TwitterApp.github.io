@@ -138,7 +138,7 @@ tweetButton.addEventListener("click",add);
 loadItems();
 function add(){
 
-    if(kalantweet>0 && kalantweet<280){
+    if(kalantweet>=0 && kalantweet<280){
 
         createItem(TweetText.value);
         setItemtoLS(TweetText.value);
